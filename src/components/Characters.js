@@ -19,7 +19,7 @@ const Characters = () => {
                         <div className="box" key={item.id}>
                             <img src={item.image} alt={item.name}/>
                             <div className="character">
-                                <h3 className="name">Nombre: {item.name}</h3>
+                                <h3 className="name">{item.name}</h3>
                                 <p className="specie">Especie: {item.species}</p>
                                 <p className="status">Estado: {item.status}</p>
                                 <p className="status">Genero: {item.gender}</p>

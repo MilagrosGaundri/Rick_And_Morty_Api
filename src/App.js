@@ -1,5 +1,6 @@
-import React, {Fragment} from 'react'
-import Header from './components/Header'
+import React, {Fragment} from 'react';
+import Header from './components/Header';
+import Characters from './components/Characters';
 
 const App = () => {
     return ( 
@@ -7,6 +8,7 @@ const App = () => {
             <Header
                 title = "Rick y Morty"
             />
+            <Characters/>
         </Fragment>
      );
 }

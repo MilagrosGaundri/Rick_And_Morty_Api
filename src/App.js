@@ -5,7 +5,7 @@ const App = () => {
     return ( 
         <Fragment>
             <h1>
-                Hola mundo
+                Hola mundo!
             </h1>
         </Fragment>
      );

@@ -3,8 +3,8 @@
         [
             "@babel/env",
             {
-                "corejs":3.8,
-                "useBuildIns": "usage"
+                "corejs": 3.8,
+                "useBuiltIns": "usage"
             }
         ],
         "@babel/react"
